@@ -16,29 +16,37 @@ export const productMenuData = [
   {
     label: "Proteksi Kesehatan",
     children: [
-      { label: "Pruprime Healthcare Plus" },
-      { label: "PSS" },
+      { label: "PRUPrime Healthcare Plus", link: "pruprime-healthcare-plus" },
+      { label: "PRUSolusi Sehat", link: "prusolusi-sehat" },
     ]
   },
   {
     label: "Proteksi Penghasilan",
     children: [
-      { label: "PRU TOP" },
-      { label: "PCB 88" },
+      { label: "PRUTotal Critical Protection", link: "prutotal-critical-protection" },
+      { label: "PRUCritical Benefit 88", link: "prucritical-benefit-88" },
     ]
   },
   {
     label: "Persiapan Dana Waris",
     children: [
-      { label: "PRU Cinta" },
-      { label: "Linkterm" },
+      { label: "PRUCinta", link: "prucinta" },
+      { label: "PRULink Term", link: "prulinkterm" },
     ]
   },
   {
     label: "Asuransi Karyawan",
     children: [
-      { label: "Pru Corporate" },
-      { label: "Pruworks" },
+      { label: "PRUCorporate", link: "prucorporate" },
+      { label: "PRUWorks", link: "pruwork" },
     ]
   }
+]
+
+export const mobileNavigation = [
+  { label: "Home", link: "/" },
+  { label: "Produk Kami", link: "/products" },
+  { label: "Peluang Karir", link: "/career" },
+  { label: "Layanan Nasabah", link: "/customer" },
+  { label: "Artikel", link: "/articles" },
 ]
